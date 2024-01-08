@@ -1,3 +1,3 @@
 Password Generator site
 
-Live: 
+Live: https://passgeneratorsite.netlify.app/
