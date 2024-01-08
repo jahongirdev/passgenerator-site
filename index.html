@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <!-- Meta Tags -->
+    <meta name="description" content="Random Password Generator using HTML, CSS &amp; Javascript">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Jahongir Murodboev">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <!-- CSS files -->
+    <link rel="stylesheet" media="all" href="css/style.css">
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Title -->
+        <h1>Generate a <br><span>Random Password</span></h1>
+        <!-- Input parent -->
+        <div class="display">
+            <!-- Input -->
+            <input type="text" id="password" placeholder="Password">
+            <!-- Copy button -->
+            <span onclick="copyPass()">COPY</span>
+        </div>
+        <!-- Generate button -->
+        <button onclick="createPassword()">⚡ Generate Password</button>
+    </div>
+
+    <!-- Script files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
